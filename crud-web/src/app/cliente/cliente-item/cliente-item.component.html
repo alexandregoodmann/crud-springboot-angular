@@ -1,0 +1,7 @@
+<label>Nome</label>
+<h1>{{cliente.nome}}</h1>
+<div>
+	<label>Crédito: </label>{{cliente.limiteCredito | currency:'R$ '}}
+</div>
+<div><label>Risco: </label>{{cliente.risco.risco}}</div>
+<div><label>Juros: </label>{{cliente.taxaJuros}}%</div>

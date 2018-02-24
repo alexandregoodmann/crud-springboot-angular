@@ -1,0 +1,5 @@
+<app-cliente-form (evento)="listar($event)"></app-cliente-form>
+
+<section>
+	<app-cliente-item *ngFor="let cliente of clientes" [cliente]="cliente"></app-cliente-item>
+</section>
